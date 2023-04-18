@@ -15,7 +15,7 @@ public class Exercicio03 {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o salário bruto em R$: ");
         float salarioBruto = entrada.nextFloat();
-        float desconto = 0;
+        float desconto;
 
         if (salarioBruto < 1000) {
             desconto = 6;
